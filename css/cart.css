@@ -1,0 +1,112 @@
+a, a:hover {
+    text-decoration: none;
+}
+a:hover {
+    color: #f4b400;
+}
+.cart-items-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.cart-item-image img {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cart-item-title {
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 0 50px;
+}
+
+.cart-item-quantity {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.quantity-increase-btn, .quantity-decrease-btn {
+    margin: 0 10px;
+    background-color: #f4b400;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item-price {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* Media queries for responsive design */
+
+@media (max-width: 700px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-item-title {
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .quantity-increase-btn, .quantity-decrease-btn {
+        padding: 5px 10px;
+    }
+}
+
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#checkout-btn {
+    background-color: #4caf50; /* color verde */
+}
+
+#checkout-btn:hover {
+    background-color: #45a049; /* color verde oscuro al pasar el mouse */
+}
+
+#clear-cart-btn {
+    background-color: #f44336; /* color rojo */
+    margin-left: 20px;
+}
+
+#clear-cart-btn:hover {
+    background-color: #da190b; /* color rojo oscuro al pasar el mouse */
+}
+
+.cart-total {
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.subitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}

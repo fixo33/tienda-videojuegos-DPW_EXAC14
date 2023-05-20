@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "console": "Nintendo Switch",
+        "genre": "Aventura, Acción",
+        "price": 59.99,
+        "image": "https://www.otakufreaks.com/wp-content/uploads/2017/03/legend-zelda-breath-wild-box-art-america-full.jpg",
+        "description": "Únete a Link en su aventura a través de Hyrule en The Legend of Zelda: Breath of the Wild."
+    },
+    {
+        "id": 2,
+        "title": "The Last of Us Part II",
+        "console": "PlayStation 4",
+        "genre": "Aventura, Acción",
+        "price": 59.99,
+        "image": "https://storeplayecuador.com/wp-content/uploads/2019/10/portada-2.png",
+        "description": "Experimenta la épica secuela del aclamado juego The Last of Us."
+    },
+    {
+        "id": 3,
+        "title": "Cyberpunk 2077",
+        "console": "Xbox One, PlayStation 4, PC",
+        "genre": "RPG, Acción",
+        "price": 59.99,
+        "image": "https://s01.riotpixels.net/data/c8/97/c897801b-8a44-4318-8ab3-7633f0ae75a0.jpg/cover.cyberpunk-2077.1440x2160.2019-08-20.154.jpg",
+        "description": "Explora el vasto mundo abierto de Night City en Cyberpunk 2077."
+    },
+    {
+        "id": 4,
+        "title": "Halo Infinite",
+        "console": "Xbox Series X, PC",
+        "genre": "Acción, Shooter",
+        "price": 59.99,
+        "image": "https://th.bing.com/th/id/OIP.Q3ZF3OPb5QPwD7K-OU9n-QHaHa?pid=ImgDet&rs=1",
+        "description": "Únete al Jefe Maestro en su última aventura en Halo Infinite."
+    },
+    {
+        "id": 5,
+        "title": "Final Fantasy VII Remake",
+        "console": "PlayStation 4",
+        "genre": "RPG",
+        "price": 59.99,
+        "image": "https://theworldwentaway.files.wordpress.com/2019/09/final-fantasy-vii-remake_2019_09-24-19_031.jpg?w=940",
+        "description": "Revive la épica historia de Cloud y sus amigos en el remake de Final Fantasy VII."
+    },
+    {
+        "id": 6,
+        "title": "Animal Crossing: New Horizons",
+        "console": "Nintendo Switch",
+        "genre": "Simulación",
+        "price": 59.99,
+        "image": "https://media.vgm.io/releases/30/11403/11403-1595210700.png",
+        "description": "Crea tu propia isla paradisíaca en Animal Crossing: New Horizons."
+    },
+    {
+        "id": 7,
+        "title": "God of War",
+        "console": "PlayStation 4",
+        "genre": "Acción, Aventura",
+        "price": 59.99,
+        "image": "https://areajugones.sport.es/wp-content/uploads/2018/03/god-of-war-ps-cover-art.jpg",
+        "description": "Acompaña a Kratos y a su hijo Atreus en su viaje a través del mundo de los dioses nórdicos en God of War."
+    },
+    {
+        "id": 8,
+        "title": "Elden Ring",
+        "console": "PlayStation 4, PlayStation 5, Xbox One, Xbox Series X, PC",
+        "genre": "RPG, Acción",
+        "price": 59.99,
+        "image": "https://assets-prd.ignimgs.com/2021/06/12/elden-ring-button-03-1623460560664.jpg",
+        "description": "Explora el vasto y fascinante mundo de Elden Ring, la última creación de FromSoftware."
+    }
+]
